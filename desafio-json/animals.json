@@ -1,0 +1,23 @@
+HTTP 200 OK
+Allow: GET, HEAD, OPTIONS
+Content-Type: application/json
+Vary: Accept
+{
+  "animals": {
+    "animal_entry": [
+      "species": "Canis lupus familiaris",
+      "name": "Kim",
+      "speed": "20"
+    ],
+    "animal_entry": [
+      "species": "Felis silvestris catus",
+      "name": "Amora",
+      "speed": "35"
+    ],
+    "animal_entry": [
+      "species": "Felis silvestris catus",
+      "name": "Frida",
+      "speed": "50"
+    ]
+  }
+}
